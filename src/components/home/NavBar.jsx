@@ -2,7 +2,7 @@ import { PenLine } from 'lucide-react';
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between px-6 py-4 border-b bg-white dark:bg-gray-800 dark:text-white">
+    <nav className="sticky top-0 flex items-center justify-between px-6 py-4 border-b bg-white dark:bg-gray-800 dark:text-white">
 
         <a href="/" className="text-xl font-bold">Thoughts</a>
 

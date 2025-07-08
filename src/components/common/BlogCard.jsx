@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const BlogCard = ({ blog, onDelete, showActions = false }) => {
   return (
-    <div className="border p-4 rounded shadow">
+    <div className="p-4 rounded shadow">
       <h2 className="text-xl font-bold">{blog.title}</h2>
       <div
         className="text-gray-600 prose dark:prose-invert max-w-none"
