@@ -6,6 +6,7 @@ import Create from "./pages/Create";
 import PrivateRoute from "./components/PrivateRoute";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
+import Profile from "./pages/Profile"
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import MainLayout from "./components/layout/MAinLayout";
@@ -27,6 +28,7 @@ function App() {
             </PrivateRoute>
           }
         />
+        <Route path="/profile" element={<Profile/>}/>
 
         <Route path="/fullBlog/:id" element={<BlogDetails />} />
         </Route>

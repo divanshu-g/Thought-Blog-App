@@ -3,8 +3,8 @@ import { Transforms } from 'slate';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const CLOUD_NAME = 'dlxcwngag'; // replace with yours
-const UPLOAD_PRESET = 'MLH_Blog'; // your unsigned preset
+const CLOUD_NAME = import.meta.env.VITE_CLOUDINARY_CLOUD_NAME; 
+const UPLOAD_PRESET = import.meta.env.VITE_CLOUDINARY_UPLOAD_PRESET;
 
 export const insertImageDialog = async (editor) => {
   const fileInput = document.createElement('input');
