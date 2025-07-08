@@ -1,4 +1,3 @@
-// src/utils/slate-helper.js
 import { Text } from "slate";
 
 export const serialize = (node) => {

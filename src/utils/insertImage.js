@@ -1,4 +1,3 @@
-// src/utils/insertImage.js
 import { Transforms } from 'slate';
 import axios from 'axios';
 import { toast } from 'react-toastify';

@@ -1,8 +1,7 @@
-// src/components/home/BlogList.jsx
 import { useEffect, useState } from "react";
 import { collection, getDocs, query, orderBy } from "firebase/firestore";
 import { db } from "../../db/Firebase";
-import BlogCard from "../common/BlogCard"; // <-- path to the real BlogCard
+import BlogCard from "../common/BlogCard"; 
 
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);

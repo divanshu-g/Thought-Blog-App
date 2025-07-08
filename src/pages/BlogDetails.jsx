@@ -1,4 +1,3 @@
-// src/pages/BlogDetails.jsx
 import { useParams } from "react-router-dom";
 import { useEffect, useState, useContext } from "react";
 import { doc, getDoc, updateDoc, arrayUnion } from "firebase/firestore";
@@ -69,7 +68,7 @@ const BlogDetails = () => {
         )}
       </div>
 
-      {/* Comment Section Placeholder */}
+      
       <div className="mt-8">
         <h2 className="text-xl font-semibold mb-2">Comments</h2>
         <p className="text-gray-500">Coming soon...</p>

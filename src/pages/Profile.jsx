@@ -1,4 +1,3 @@
-// src/pages/UserProfile.jsx
 import { useEffect, useState } from 'react';
 import useAuth  from '../hooks/useAuth';
 import { getUserById, getBlogsByUser, deleteBlog } from '../services/userService';

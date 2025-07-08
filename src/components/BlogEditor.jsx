@@ -1,4 +1,3 @@
-// src/components/BlogEditor.jsx
 import { useEffect, useState, useCallback } from 'react';
 import { Slate, Editable, withReact } from 'slate-react';
 import { createEditor, Transforms, Editor, Range, Element as SlateElement } from 'slate';
