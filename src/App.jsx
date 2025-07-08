@@ -9,7 +9,7 @@ import Login from "./pages/Login";
 import Profile from "./pages/Profile"
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import MainLayout from "./components/layout/MAinLayout";
+import MainLayout from "./components/layout/MainLayout";
 
 function App() {
   return (
